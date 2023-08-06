@@ -1,0 +1,51 @@
+[
+  {
+    "PassageName":"Start",
+    "Content":"You are standing at the entrance of a dark cave. Do you want to go in or leave?",
+    "Links":[
+      {
+        "Option":"Go inside",
+        "Target":"InsideCave"
+      },
+      {
+        "Option":"Walk away",
+        "Target":"WalkAway"
+      }
+    ]
+  },
+  {
+    "PassageName":"InsideCave",
+    "Content":"It's pitch black inside the cave. Suddenly you hear a growl. Do you want to keep going or run away?",
+    "Links":[
+      {
+        "Option":"Continue further",
+        "Target":"DeepInsideCave"
+      },
+      {
+        "Option":"Run away",
+        "Target":"OutsideCave"
+      }
+    ]
+  },
+  {
+    "PassageName":"DeepInsideCave",
+    "Content":"You have stumbled upon a treasure chest. The adventure was worth it!",
+    "Links":[
+
+    ]
+  },
+  {
+    "PassageName":"OutsideCave",
+    "Content":"You made it out of the cave just in time to see a bear coming out. You are safe now.",
+    "Links":[
+
+    ]
+  },
+  {
+    "PassageName":"WalkAway",
+    "Content":"You decide it's better not to risk it and walk away from the cave. Sometimes it's wiser to leave some puzzles unsolved.",
+    "Links":[
+
+    ]
+  }
+]
