@@ -28,7 +28,7 @@ sudo pacman -Sy && sudo pacman -S ncurses jansson mimalloc cmake
 1. Clone and navigate to the repository:
 
     ```bash
-    git clone https://github.com/yourusername/text-based-adventure.git && cd text-based-adventure
+    git clone https://github.com/isaak-pdm/CTales && cd CTales
     ```
 
 2. Create a build directory, navigate to it, and run CMake:
@@ -40,7 +40,7 @@ sudo pacman -Sy && sudo pacman -S ncurses jansson mimalloc cmake
 3. Compile and run the game:
 
     ```bash
-    make && ./text_adventure_game <path_to_your_json_file>
+    make && ./CTales <path_to_your_json_file>
     ```
 
 *Replace `<path_to_your_json_file>` with your game state JSON file path.*
