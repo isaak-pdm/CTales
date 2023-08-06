@@ -1,0 +1,5 @@
+# .gitattributes
+* text=auto eol=lf
+
+# Just examples to show how it works
+/data/* linguist-generated=true
