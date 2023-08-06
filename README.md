@@ -40,7 +40,7 @@ sudo pacman -Sy && sudo pacman -S ncurses jansson mimalloc cmake
 3. Compile and run the game:
 
     ```bash
-    make && ./CTales <path_to_your_json_file>
+    make && ./CTales ../data/story.json
     ```
 
 *Replace `<path_to_your_json_file>` with your game state JSON file path.*
